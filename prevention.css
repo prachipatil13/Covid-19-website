@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* navbar */
+
+.nav-item {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 150%;
+}
+.nav-item:hover {
+  font-weight: none;
+}
+.nav-link:hover {
+  color: black;
+}
+.nav-link {
+  color: green;
+}
+/* section-head */
+
+.head {
+  min-height: 800px;
+}
+
+.title h1 {
+  /* color: white; */
+  font-family: "Dancing Script", cursive;
+  font-size: 521%;
+  display: inline-block;
+  position: relative;
+  left: 689px;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.title h1:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: yellow;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.title h1:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/* .title h1:hover{
+   text-decoration: underline;  
+} */
+.text-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 350px;
+  color: black;
+  font-size: 200%;
+}
+
+.saved-lifes {
+  position: absolute;
+  top: 89px;
+  right: 0;
+  width: 235px;
+}
+
+.stop-spread {
+  position: absolute;
+  width: 235px;
+  left: 20px;
+  top: 900px;
+}
+
+/* prevention  items */
+
+/* mask */
+
+.para-mask {
+  /* display: flex;
+    justify-content: right;
+    align-items: right; */
+  padding: 1px 350px;
+  color: white;
+  font-size: 200%;
+}
+
+.mask-girl {
+  float: left;
+  margin-bottom: 0;
+}
+
+/* social-distance */
+
+.social-distance {
+  background-color: black;
+}
+.para-distance {
+  padding: 1px 350px;
+  color: white;
+  font-size: 200%;
+}
+
+.social-distance-img {
+  float: right;
+  margin-bottom: 0;
+  width: 469px;
+}
+
+/* wash hands */
+.wash-hands-img {
+  float: left;
+  margin-bottom: 0;
+  padding-right: 150px;
+  padding-bottom: 250px;
+  /* width: 469px; */
+}
+.wash-hands-para {
+  padding: 1px 350px;
+  color: white;
+  font-size: 200%;
+}
+
+/* vaccinated */
+.para-vaccinated {
+  padding: 1px 350px;
+  color: white;
+  font-size: 200%;
+}
+.vaccinated-img {
+  float: right;
+  margin-bottom: 0;
+  padding-left: 50px;
+}
+.vaccinated-div {
+  padding-bottom: 80px;
+}

@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbartop,
+.head {
+  background-color: #adefd1ff;
+}
+/* navbar */
+
+.nav-item {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.nav-link {
+  color: green;
+}
+/* section-head */
+.vaccine {
+  left: 728px;
+}
+.head {
+  min-height: 800px;
+}
+
+.title h1 {
+  /* color: white; */
+  font-family: "Dancing Script", cursive;
+  font-size: 521%;
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.title h1:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.title h1:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.text-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 350px;
+  /* color: black; */
+  font-size: 200%;
+}
+
+.saved-lifes {
+  position: absolute;
+  top: 89px;
+  right: 0;
+  width: 235px;
+}
+
+.stop-spread {
+  position: absolute;
+  width: 235px;
+  left: 20px;
+  top: 900px;
+}
+
+/* prevention  items */
+
+/* mask */
+.items-prevention,
+.social-distance,
+.wash-hands,
+.vaccinated {
+  background-color: #00203fff;
+}
+
+.covishield {
+  left: 681px;
+}
+
+.para-mask {
+  /* display: flex;
+    justify-content: right;
+    align-items: right; */
+  padding: 1px 350px;
+  color: white;
+  font-size: 200%;
+}
+
+.mask-girl {
+  float: left;
+  margin-bottom: 0;
+  padding-bottom: 100px;
+}
+
+/* social-distance */
+.covaxin {
+  left: 722px;
+}
+.social-distance .title .h1 {
+  left: 800px;
+}
+
+.para-distance {
+  padding: 1px 350px;
+  color: white;
+  font-size: 200%;
+}
+
+.social-distance-img {
+  float: right;
+  margin-bottom: 0;
+  width: 200px;
+}
+
+/* wash hands */
+.sputnik {
+  left: 681px;
+}
+
+.wash-hands-img {
+  float: left;
+  margin-bottom: 0;
+  padding-right: 150px;
+  padding-bottom: 300px;
+  /* width: 469px; */
+}
+.wash-hands-para {
+  padding: 1px 350px;
+  color: white;
+  font-size: 200%;
+}
+
+/* vaccinated */
+.Moderna {
+  left: 616px;
+}
+.para-vaccinated {
+  padding: 1px 350px;
+  color: white;
+  font-size: 200%;
+}
+.vaccinated-img {
+  float: right;
+  margin-bottom: 0;
+  padding-left: 50px;
+}
+.vaccinated-div {
+  padding-bottom: 80px;
+}
+
+/* janessan */
+
+.Janessan {
+  left: 634px;
+}
+
+.janessan-img {
+  float: left;
+  padding-bottom: 100px;
+}
+
+/* zycovd */
+
+.zycovd {
+  left: 681px;
+}
+
+.cowin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+
+/* cowin */
+
+.cowin-text{
+  font-size: 30px;
+  list-style: none;
+  text-decoration: none;
+  padding: 15px;
+  color: yellow;
+  transition: 0.2s;
+}
+
+.cowin-text:hover{
+  font-size: 35px;
+  color: green;
+}
+

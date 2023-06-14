@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/200w.webp" />
+    <title>Covid-19</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+  </head>
+  <body class="main">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">
+        <a class="home" href="index.html">
+          <h1 class="top-heading">
+            C<img src="images/200w.webp" width="40" />VID-19
+          </h1>
+        </a>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="Information.html">Information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="prevention.html">Prevention</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vaccine.html">vaccines</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="CountryNAme">
+      <h1 id="Country_name"></h1>
+    </div>
+    <div class="search-container">
+      <form id="myForm">
+        <h1 id="name-global"></h1>
+        <input type="search" id="country" placeholder="Enter Country Name" />
+        <button type="submit" class="button">
+          <img src="images/search.png" class="covid-button" />
+        </button>
+      </form>
+    </div>
+    <div class="active_number">
+      <p id="active-name"><br /></p>
+      <span id="active-values"></span><br />
+      <span id="new-values"></span><span id="new1-values"></span>
+    </div>
+    <div class="Confirmed_number">
+      <p id="confirmed-name"><br /></p>
+      <span id="Confirmed-values"></span>
+    </div>
+    <div class="Deaths_number">
+      <p id="death-name"><br /></p>
+      <span id="Deaths-values"></span><br />
+      <span id="new-death-plus-values"></span
+      ><span id="new-deaths-values"></span>
+    </div>
+    <div class="flex-container">
+      <div class="Active-container">
+        <canvas id="Active" width="400" height="400"></canvas>
+      </div>
+      <div class="Confirmed-container">
+        <canvas id="Confirmed" width="400" height="400"></canvas>
+      </div>
+      <div class="Death-container">
+        <canvas id="deaths" width="400" height="400"></canvas>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

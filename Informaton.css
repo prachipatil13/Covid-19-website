@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+/* navbar */
+
+.nav-item {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 150%;
+}
+.nav-item:hover {
+  font-weight: none;
+}
+.nav-link:hover {
+  color: black;
+}
+.nav-link {
+  color: green;
+}
+
+.fight-covid-img {
+  height: 344px;
+  width: 358px;
+  position: absolute;
+}
+.fight-covid1-img {
+  height: 344px;
+  width: 358px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section {
+  padding: 20px 0;
+}
+
+.heading {
+  color: white;
+  font-family: "Dancing Script", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  font-size: 60px;
+  color: rgb(20, 209, 121);
+}
+
+.virus-img {
+  float: right;
+}
+/* .link-btn{
+    display: inline-block;
+    background:var(--main-color);
+    color:#fff;
+    border-radius: 50px;
+    padding:5px 25px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+} */
+
+/* .link-btn:hover{
+    color:#fff;
+    background:var(--black);
+} */
+
+.home {
+  min-height: 92vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.home .content span {
+  color: var(--main-color);
+  font-size: 20px;
+}
+
+.home .content h3 {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: "Dancing Script", cursive;
+  position: absolute;
+  top: 221px;
+  left: 632px;
+}
+
+.about,
+.effects .content h2 {
+  color: rgb(20, 209, 121);
+  font-size: 57px;
+}
+
+.about,
+.effects .content p {
+  color: white;
+  font-size: 26px;
+}
+
+.symptoms {
+  padding: 76px;
+}
+
+.symptoms .box {
+  flex: 1 1 300px;
+  /* background:#fafafa; */
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
+.symptoms h1 {
+  text-align: center;
+  font-size: 60px;
+  color: rgb(20, 209, 121);
+}
+.symptoms .box img {
+  margin-bottom: 10px;
+  height: 200px;
+  /* font-size: 118px; */
+  width: 200px;
+  padding: 17px;
+  border: 2px solid;
+  border-radius: 20px;
+}
+
+.symptoms .box h3 {
+  color: (--black);
+  font-size: 20px;
+}
+
+.symptoms .box p {
+  color: var(--black);
+  font-size: 14px;
+}
+
+.protect .heading {
+  text-align: center;
+  padding: 1rem;
+}
+
+.protect .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.protect .box-container .box {
+  /* background:#fff; */
+  border: 0.1rem solid white;
+  padding: 2rem;
+  margin: 2rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.protect .box-container .box img {
+  height: 10rem;
+  width: 13rem;
+}
+
+.protect .box-container .box h3 {
+  font-size: 2.5rem;
+  color: white;
+  padding: 1rem 0;
+}
+
+.protect .box-container .box p {
+  font-size: 1.4rem;
+  color: gold;
+  padding: 0.5rem;
+}
+
+.protect .box-container .box:hover {
+  transform: translateY(-1rem);
+}

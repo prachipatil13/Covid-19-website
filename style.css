@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+#name-global {
+  color: #ffc069;
+  font-size: 58px;
+  position: absolute;
+  top: 4px;
+  right: 735px;
+  text-transform: uppercase;
+}
+/* Nav Bar */
+
+.chart {
+  border: 0;
+}
+.home {
+  text-decoration: none;
+}
+.top-heading {
+  color: gold;
+  padding: 20px;
+  font-size: 200%;
+}
+.nav-link {
+  color: goldenrod;
+  margin: 30px;
+  font-weight: bold;
+  font-size: 172%;
+}
+
+body {
+  background-color: #161625;
+}
+
+/* Charts */
+.Active-container {
+  width: 27%;
+  height: 31%;
+  position: absolute;
+  left: 100px;
+  top: 467px;
+}
+
+.Confirmed-container {
+  width: 27%;
+  height: 31%;
+  position: absolute;
+  left: 660px;
+  top: 467px;
+}
+
+.Death-container {
+  width: 27%;
+  height: 31%;
+  position: absolute;
+  right: 100px;
+  top: 467px;
+}
+
+/* putting the total values */
+
+.active_number {
+  justify-content: center;
+  position: absolute;
+  left: 252px;
+  top: 245px;
+  color: #16ef08;
+}
+
+.active_number,
+.Confirmed_number,
+.Deaths_number {
+  font-size: 35px;
+  border-radius: 14px;
+  padding: 30px;
+  transition: 0.1s;
+  cursor: pointer;
+  font-family: "PT Sans-bold", sans-serif;
+}
+
+.active_number p,
+.Confirmed_number p,
+.Deaths_number p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.active_number:hover {
+  background-color: #1a382b;
+}
+
+#active-values {
+  color: #16ef08;
+  transition: 0.3s;
+  font-size: 40px;
+}
+
+.active_number:hover #active-values {
+  color: #16ef08;
+  font-size: 45px;
+}
+
+/* confirmed number */
+
+.Confirmed_number {
+  position: absolute;
+  left: 761px;
+  top: 245px;
+  color: #bdbdbd;
+}
+
+.Confirmed_number:hover {
+  background-color: #252735;
+  color: #bdbdbd;
+}
+
+#Confirmed-values {
+  color: #bdbdbd;
+  transition: 0.3s;
+  font-size: 40px;
+}
+
+.Confirmed_number:hover #Confirmed-values {
+  color: grey;
+  font-size: 45px;
+}
+
+/* Deaths Number */
+
+.Deaths_number {
+  position: absolute;
+  right: 219px;
+  top: 245px;
+  color: red;
+  padding: 30px;
+  transition: 0.2s;
+  cursor: pointer;
+  font-family: "PT Sans", sans-serif;
+}
+
+.Deaths_number:hover {
+  background-color: #4d1129;
+  color: red;
+  opacity: 1;
+}
+
+#Deaths-values {
+  color: red;
+  transition: 0.3s;
+  font-size: 40px;
+}
+
+.Deaths_number:hover #Deaths-values {
+  color: red;
+  font-size: 45px;
+}
+
+/* ---------Search bar -----------  */
+
+.search-container {
+  position: absolute;
+  top: 127px;
+  left: 738px;
+}
+
+#country {
+  background-color: #bdbdbd;
+  font-size: 159%;
+  padding: 15px;
+  border: 0 solid;
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* -------Country Name--------- */
+
+#Country_name {
+  color: #ffc069;
+  font-size: 58px;
+  position: absolute;
+  top: 127px;
+  left: 170px;
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: transparent;
+  border: 0;
+}
+
+.covid-button {
+  height: 67px;
+  width: 73px;
+  position: absolute;
+  top: 1px;
+}
